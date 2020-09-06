@@ -1,0 +1,14 @@
+.btn-grad {
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transform-origin: 0 0;
+    box-shadow:0px 0px 0 100px #3B7EEB inset;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    -webkit-box-shadow:0px 0px 0 0px #3B7EEB inset;
+    -webkit-transform: scale(1);
+}
